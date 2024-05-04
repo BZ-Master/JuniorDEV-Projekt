@@ -1,9 +1,10 @@
 const stilovi = {
     buttonSytle: {
-        backgroundColor: "grey",
+        backgroundColor: "rgba(0, 0, 255, 0.6)",
         border: "black solid 1px",
         margin: "10px",
-        padding: "35px"
+        padding: "25px",
+        width: "125px",
     }
 }
 

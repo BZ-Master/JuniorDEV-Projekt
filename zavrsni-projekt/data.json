@@ -1,0 +1,28 @@
+{
+    "aktivnosti": [
+        {
+            "ime": "Čišćenje plaže",
+            "datum": "15.5.2024.",
+            "vrijeme": "9:00",
+            "udruga": "Team Seas",
+            "opis": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia suscipit hic dolor harum doloribus aspernatur at earum deserunt laboriosam, consectetur neque. Corporis deleniti non vitae in quo qui maxime quam?",
+            "sudionici": []
+        }
+    ],
+
+    "volonteri": [
+        {
+            "ime": "Jure Jurić",
+            "kontakt": "021 556",
+            "grad": "Split"
+        }
+    ],
+
+    "udruge": [
+        {
+            "ime": "Udruga volontera",
+            "adresa": "Ulica Matice Hrvatske, 11",
+            "grad": "Split"
+        }
+    ]
+}

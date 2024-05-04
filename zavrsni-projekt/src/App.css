@@ -25,7 +25,6 @@ body{
   border: 1px solid black;
   border-radius: 5px;
   padding: 10px;
-  background-color: lightgray;
   color: black;
 }
 
@@ -36,4 +35,75 @@ body{
 footer a{
   margin: 5px;
   color: black;
+}
+
+.main{
+  background-color: lightgray;
+  height: 375px;
+  width: 750px;
+  overflow-y: scroll;
+}
+
+.aktivnost{
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+#aktivnosti{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.volonter{
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+#volonteri{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.udruga{
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+#udruge {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-main {
+  position: fixed;
+  background-color: white;
+  width: 50%;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
 }

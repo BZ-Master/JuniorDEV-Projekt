@@ -15,8 +15,9 @@ const stilovi = {
     }
 }
 
-function Udruga(props: any) {
+function Udruga({ props, funkcija }: any) {
     const admin = useContext(AdminContext)
+
     return (
         <div style={stilovi.divStyle} className='udruga'>
             <h4>{props.ime}</h4>
@@ -24,7 +25,7 @@ function Udruga(props: any) {
             <p>{props.grad}</p>
             {(admin == "admin") && (
                 <>
-                    <button style={stilovi.buttonStyle} onClick={props.funkcija}>Obriši</button>
+                    <button style={stilovi.buttonStyle} onClick={funkcija}>Obriši</button>
                     <br />
                     <br />
                 </>

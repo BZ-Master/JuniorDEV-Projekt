@@ -28,6 +28,10 @@ body{
   color: black;
 }
 
+#info{
+  overflow-y: hidden;
+}
+
 #info h1{
   color: black;
 }
@@ -106,4 +110,43 @@ footer a{
 
 .display-none {
   display: none;
+}
+
+.mainModalContent{
+  max-height: 50%;
+  overflow-y: auto;
+}
+
+#novaAktivnost{
+  color: black;
+}
+
+#novaAktivnost input{
+  background-color: white;
+  width: 50%;
+  color: black;
+}
+
+#novaAktivnost .opis {
+  height: 5em;
+}
+
+#noviVolonter {
+  color: black;
+}
+
+#noviVolonter input {
+  background-color: white;
+  width: 50%;
+  color: black;
+}
+
+#novaUdruga {
+  color: black;
+}
+
+#novaUdruga input {
+  background-color: white;
+  width: 50%;
+  color: black;
 }

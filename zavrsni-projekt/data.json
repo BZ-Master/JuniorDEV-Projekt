@@ -1,28 +1,107 @@
 {
-    "aktivnosti": [
+  "aktivnosti": [
+    {
+      "ime": "Čišćenje plaže",
+      "datum": "15.5.2024.",
+      "vrijeme": "9:00",
+      "grad": "Split",
+      "udruga": "Team Seas",
+      "opis": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia suscipit hic dolor harum doloribus aspernatur at earum deserunt laboriosam, consectetur neque. Corporis deleniti non vitae in quo qui maxime quam?",
+      "sudionici": [
         {
-            "ime": "Čišćenje plaže",
-            "datum": "15.5.2024.",
-            "vrijeme": "9:00",
-            "udruga": "Team Seas",
-            "opis": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia suscipit hic dolor harum doloribus aspernatur at earum deserunt laboriosam, consectetur neque. Corporis deleniti non vitae in quo qui maxime quam?",
-            "sudionici": []
-        }
-    ],
-
-    "volonteri": [
+          "ime": "Ante Anić"
+        },
         {
-            "ime": "Jure Jurić",
-            "kontakt": "021 556",
-            "grad": "Split"
-        }
-    ],
-
-    "udruge": [
+          "ime": "Jure Jurić"
+        },
         {
-            "ime": "Udruga volontera",
-            "adresa": "Ulica Matice Hrvatske, 11",
-            "grad": "Split"
+          "ime": "Mate Matić"
+        },
+        {
+          "ime": "Ivo Ivić"
+        },
+        {
+          "ime": "Toma Tomić"
         }
-    ]
+      ],
+      "id": 1
+    },
+    {
+      "ime": "Sadnja stabala",
+      "datum": "16.5.2024.",
+      "vrijeme": "10:00",
+      "grad": "Klis",
+      "udruga": "Team Trees",
+      "opis": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia suscipit hic dolor harum doloribus aspernatur at earum deserunt laboriosam, consectetur neque. Corporis deleniti non vitae in quo qui maxime quam?",
+      "sudionici": [
+        {
+          "ime": "Ivo Ivić"
+        },
+        {
+          "ime": "Toma Tomić"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "id": 234370443,
+      "ime": "Kuhanje za beskučnike",
+      "datum": "17.5.2024.",
+      "vrijeme": "11:00",
+      "grad": "Split",
+      "udruga": "Udruga za beskućnike",
+      "opis": "lorem ipsum dolor sit ",
+      "sudionici": []
+    },
+    {
+      "id": 1039594228,
+      "ime": "Donacije za Caritas",
+      "datum": "12.5.2024.",
+      "vrijeme": "12:00",
+      "grad": "Split",
+      "udruga": "Caritas",
+      "opis": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia suscipit hic dolor harum doloribus aspernatur at earum deserunt laboriosam, consectetur neque. Corporis deleniti non vitae in quo qui maxime quam?",
+      "sudionici": []
+    }
+  ],
+  "volonteri": [
+    {
+      "ime": "Jure Jurić",
+      "kontakt": "021 556",
+      "grad": "Split",
+      "id": 1
+    },
+    {
+      "ime": "Ante Anić",
+      "kontakt": "021 333",
+      "grad": "Makarska",
+      "id": 2
+    },
+    {
+      "ime": "Mate Matić",
+      "kontakt": "095 555 4444",
+      "grad": "Sinj",
+      "id": 3
+    },
+    {
+      "id": "7681",
+      "ime": "Mirko Mirić",
+      "kontakt": "mirkomiric@yahoo.com",
+      "grad": "Split"
+    }
+  ],
+  "udruge": [
+    {
+      "ime": "Udruga volontera",
+      "adresa": "Ulica Matice Hrvatske, 11",
+      "grad": "Split",
+      "id": 1
+    },
+    {
+      "id": 7096459087,
+      "ime": "Udruga udruga",
+      "adresa": "Ulica Udruga 1",
+      "grad": "Grad Udruga"
+    }
+  ]
 }
